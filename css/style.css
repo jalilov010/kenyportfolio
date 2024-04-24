@@ -43,6 +43,8 @@ user-select: none;
   box-sizing: border-box;
 }
 
+
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -11217,4 +11219,11 @@ h6,
 #skill,
 #contact{
   margin-bottom: 100px;
+}
+
+@media screen and (max-width: 992px){
+  #download{
+    display: flex;
+    margin-left: 50px;
+  }
 }
