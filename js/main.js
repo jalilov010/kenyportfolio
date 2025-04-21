@@ -33,8 +33,8 @@
         var typed_strings = $('.typed-text').text();
         var typed = new Typed('.typed-text-output', {
             strings: typed_strings.split(', '),
-            typeSpeed: 100,
-            backSpeed: 20,
+            typeSpeed: 70,
+            backSpeed: 15,
             smartBackspace: false,
             loop: true
         });
@@ -85,7 +85,6 @@
     $('#portfolio-flters li').on('click', function () {
         $("#portfolio-flters li").removeClass('active');
         $(this).addClass('active');
-
         portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
     
