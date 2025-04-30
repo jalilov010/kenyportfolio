@@ -72,7 +72,7 @@ body {
   line-height: 1.5;
   color: #6c757d;
   text-align: left;
-  background-color: #ffffff;
+  background-color: #E9E9E9;
 }
 z [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
@@ -3064,7 +3064,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #0bceaf;
+  color: black;
   border-color: #0bceaf;
 }
 
@@ -11293,3 +11293,4 @@ h6,
     background-position: 470px;
   }
 }
+
